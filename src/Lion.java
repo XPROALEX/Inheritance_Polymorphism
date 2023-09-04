@@ -1,9 +1,10 @@
-public class Lion extends Animal{
+public class Lion extends Animal {
     public Lion(String animalName) {
         super(animalName);
     }
+
     @Override
-    public void animalSound(){
+    public void animalSound() {
         System.out.println("Roar!");
     }
 }
